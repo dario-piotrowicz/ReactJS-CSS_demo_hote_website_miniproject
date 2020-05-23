@@ -1,6 +1,7 @@
 #showcase {
     background: url('../images/showcase.jpg') no-repeat center center/cover;
     height: 600px;
+    overflow: auto;
 }
 
 #showcase .showcase-content {
@@ -17,4 +18,8 @@
 #showcase .showcase-content p {
     font-size: 20px;
     padding: 5px 20px 20px 20px;
+}
+
+#showcase .showcase-content a.btn {
+    margin-bottom: 20px;
 }
