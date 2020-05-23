@@ -1,4 +1,5 @@
 const App = () => {
     const header = React.createElement(Header);
-    return React.createElement('div', null, header);
+    const showcase = React.createElement(Showcase);
+    return React.createElement('div', null, header, showcase);
 };
