@@ -24,6 +24,16 @@ a {
     color: #fff;
 }
 
+.background-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.background-primary {
+    background-color: #f7c08a;
+    color: #333;
+}
+
 h1, h2 {
     padding-bottom: 20px;
 }
