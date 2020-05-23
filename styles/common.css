@@ -19,8 +19,12 @@ a {
     padding: 0 20px;
 }
 
+.background-dark {
+    background-color: #333;
+    color: #fff;
+}
 
-h1 {
+h1, h2 {
     padding-bottom: 20px;
 }
 
@@ -31,7 +35,7 @@ h1 {
 .btn {
     display: inline-block;
     font-size: 18px;
-    color: white;
+    color: #fff;
     background-color: #333;
     padding: 13px 20px;
     border: none;
@@ -41,4 +45,9 @@ h1 {
 .btn:hover {
     color: #333;
     background-color: #f7c08a;
+}
+
+.btn-light {
+    color: #333;
+    background-color: #f4f4f4;
 }
