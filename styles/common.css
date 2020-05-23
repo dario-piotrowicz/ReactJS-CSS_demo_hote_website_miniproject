@@ -61,3 +61,7 @@ h1, h2 {
     color: #333;
     background-color: #f4f4f4;
 }
+
+.clr {
+    clear: both;
+}
