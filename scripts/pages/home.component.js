@@ -5,17 +5,12 @@ const Home = () => {
         document.title = 'Hotel DP | Home';
     },[]);
 
-    const showcase = React.createElement(Showcase);
-    const infoSection = React.createElement(HomeInfoSection);
-    const featuresSection = React.createElement(FeaturesSection);
-    const clearFloats = React.createElement('div',{className: 'clr'});
-
     return React.createElement(
         'main',
         {},
-        showcase,
-        infoSection,
-        featuresSection,
-        clearFloats
+        React.createElement(Showcase),
+        React.createElement(HomeInfoSection),
+        React.createElement(FeaturesSection),
+        React.createElement('div',{className: 'clr'})
     );
 };
