@@ -3,17 +3,17 @@ const features = [
         {
             fontAwesomeIconClass: 'fas fa-hotel fa-3x',
             title:'Great Location',
-            description:'fu trota!'
+            description:'Very close to the ice-cream shop!'
         },
         {
             fontAwesomeIconClass: 'fas fa-utensils fa-3x',
             title:'Free Meals',
-            description:'all you can eat!'
+            description:'The food is not very good but it is free!'
         },
         {
             fontAwesomeIconClass: 'fas fa-dumbbell fa-3x',
             title:'Fitness Room',
-            description:'exercise!!!'
+            description:"If you really must you can exercise here"
         }
 ];
 
