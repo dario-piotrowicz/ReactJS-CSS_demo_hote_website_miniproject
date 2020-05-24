@@ -4,21 +4,35 @@ const showcaseSubtitle = `
  (without using CRA, JSX, WebPack, Babel, etc...)
 `;
 
-const Showcase = () => {
-
-    const title = React.createElement('h1',{},
-        React.createElement('span',{className: 'text-primary'}, 'Enjoy'),
-        ' Your Stay'
-    );
-    const subtitle = React.createElement('p',{},showcaseSubtitle);
-    const about = React.createElement(
-        ReactRouterDOM.Link,
-        {to: '/about', className: 'btn'},
-        'About Our Hotel'
-    );
-
-    const content = React.createElement('div',{className: 'showcase-content'}, title, subtitle, about);
-
-    const container = React.createElement('div',{className: 'centering-container'}, content);
-    return React.createElement('div', {id: 'showcase'}, container);
-};
+const Showcase = () => React.createElement(
+        'div',
+        {id: 'showcase'},
+        React.createElement(
+            'div',
+            {className: 'centering-container'},
+            React.createElement(
+                'div',
+                {className: 'showcase-content'},
+                React.createElement(
+                    'h1',
+                    {},
+                    React.createElement(
+                        'span',
+                        {className: 'text-primary'},
+                        'Enjoy'
+                    ),
+                    ' Your Stay'
+                ),
+                React.createElement(
+                    'p',
+                    {},
+                    showcaseSubtitle
+                ),
+                React.createElement(
+                    ReactRouterDOM.Link,
+                    {to: '/about', className: 'btn'},
+                    'About Our Hotel'
+                )
+            )
+        )
+);
