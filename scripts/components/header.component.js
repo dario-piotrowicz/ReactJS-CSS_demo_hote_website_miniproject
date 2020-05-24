@@ -3,23 +3,23 @@ const Header = () => {
     const logo = React.createElement(
         'h1',
         {className: 'logo'},
-        React.createElement('a', {href: 'index.html'}, 'HDP')
+        React.createElement(ReactRouterDOM.Link, {to: '/'}, 'HDP'),
     );
 
     const home = React.createElement(
         'li',
         {className: 'logo'},
-        React.createElement('a', {href: 'index.html',className: 'current'}, 'Home')
+        React.createElement(ReactRouterDOM.Link, {to: '/'}, 'Home')
     );
     const about = React.createElement(
         'li',
         {className: 'logo'},
-        React.createElement('a', {href: 'index.html'}, 'About')
+        React.createElement(ReactRouterDOM.Link, {to: '/about'}, 'About')
     );
     const contact = React.createElement(
         'li',
         {className: 'logo'},
-        React.createElement('a', {href: 'index.html'}, 'Contact ')
+        React.createElement(ReactRouterDOM.Link, {to: '/contact'}, 'Contact')
     );
     const ul = React.createElement('ul', {}, home, about, contact);
 

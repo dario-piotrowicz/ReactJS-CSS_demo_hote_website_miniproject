@@ -1,18 +1,40 @@
 const App = () => {
-    const header = React.createElement(Header);
-    const showcase = React.createElement(Showcase);
-    const infoSection = React.createElement(InfoSection);
-    const featuresSection = React.createElement(FeaturesSection);
-    const clearFloats = React.createElement('div',{className: 'clr'});
-    const footer = React.createElement(Footer);
+
+    const routerSwitch = React.createElement(
+        ReactRouterDOM.Switch,
+        {},
+        React.createElement(
+            ReactRouterDOM.Route,
+            { exact: true, path: ['/index.html','/'] },
+            React.createElement(Home)
+        ),
+        React.createElement(
+            ReactRouterDOM.Route,
+            { exact: true, path:'/about'},
+            React.createElement(About)
+        ),
+        React.createElement(
+            ReactRouterDOM.Route,
+            { exact: true, path:'/contact'},
+            React.createElement(Contact)
+        )
+    );
+
+    const router = React.createElement(
+        ReactRouterDOM.BrowserRouter,
+        {},
+        React.createElement(
+            'div',
+            {},
+            React.createElement(Header),
+            routerSwitch
+        )
+    );
+
     return React.createElement(
         'div',
         {},
-        header,
-        showcase,
-        infoSection,
-        featuresSection,
-        clearFloats,
-        footer
+        router,
+        React.createElement(Footer)
     );
 };

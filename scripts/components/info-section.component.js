@@ -16,8 +16,8 @@ const InfoSection = () => {
     const description = React.createElement('p',{},descriptionText);
 
     const readMoreButton = React.createElement(
-        'a',
-        {href: 'index.html', className: 'btn btn-light'},
+        ReactRouterDOM.Link,
+        {to: '/about', className: 'btn btn-light'},
         'Read More'
     );
 

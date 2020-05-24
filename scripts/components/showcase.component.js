@@ -12,8 +12,8 @@ const Showcase = () => {
     );
     const subtitle = React.createElement('p',{},showcaseSubtitle);
     const about = React.createElement(
-        'a',
-        {href: 'index.html', className: 'btn'},
+        ReactRouterDOM.Link,
+        {to: '/about', className: 'btn'},
         'About Our Hotel'
     );
 
