@@ -30,7 +30,7 @@ const ContactForm = () => {
                     {className: 'form-group'},
                     React.createElement(
                         'label',
-                        {for: 'name'},
+                        {htmlFor: 'name'},
                         'Name'
                     ),
                     React.createElement(
@@ -43,7 +43,7 @@ const ContactForm = () => {
                     {className: 'form-group'},
                     React.createElement(
                         'label',
-                        {for: 'email'},
+                        {htmlFor: 'email'},
                         'Email'
                     ),
                     React.createElement(
@@ -56,7 +56,7 @@ const ContactForm = () => {
                     {className: 'form-group'},
                     React.createElement(
                         'label',
-                        {for: 'message'},
+                        {htmlFor: 'message'},
                         'Message'
                     ),
                     React.createElement(
