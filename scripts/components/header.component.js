@@ -11,7 +11,7 @@ const Header = ({ history }) => {
     const logo = React.createElement(
         'h1',
         {className: 'logo'},
-        React.createElement(ReactRouterDOM.Link, {to: '/'}, 'HDP'),
+        React.createElement(ReactRouterDOM.Link, {to: '/'}, 'HDP')
     );
 
     const home = React.createElement(
