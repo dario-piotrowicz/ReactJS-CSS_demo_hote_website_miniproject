@@ -8,6 +8,7 @@ const About = () => {
     return React.createElement(
         'main',
         {},
-        React.createElement(AboutInfoSection)
+        React.createElement(AboutInfoSection),
+        React.createElement(AboutTestimonialsSection)
     );
 }
