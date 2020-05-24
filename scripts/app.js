@@ -26,7 +26,7 @@ const App = () => {
         React.createElement(
             'div',
             {},
-            React.createElement(Header),
+            React.createElement(ReactRouterDOM.withRouter(Header)),
             routerSwitch
         )
     );
