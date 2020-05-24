@@ -1,14 +1,4 @@
 
-const FeatureBox = ({ title, description, backgroundClass, children}) => {
-    return React.createElement(
-        'div',
-        {className: `feature-box ${backgroundClass}`},
-        children,
-        React.createElement('h1',{},title),
-        React.createElement('p',{},description)
-    );
-};
-
 const features = [
         {
             fontAwesomeIconClass: 'fas fa-hotel fa-3x',
@@ -35,7 +25,7 @@ const FeaturesSection = () => React.createElement(
             const backgroundClass = idx%2 ? 'background-primary' : 'background-light' ;
             const key = `feature-${idx}`;
             return React.createElement(
-                FeatureBox,
+                InfoBox,
                 {key, title, description, backgroundClass},
                 React.createElement('i', {className: fontAwesomeIconClass} )
             )

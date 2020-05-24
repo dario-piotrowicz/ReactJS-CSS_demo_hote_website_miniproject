@@ -1,10 +1,11 @@
-.feature-box {
+.info-box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align: center;
+    word-break: break-all;
 }
 
-.feature-box i {
+.info-box i {
     margin-bottom: 10px;
 }

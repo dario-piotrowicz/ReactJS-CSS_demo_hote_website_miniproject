@@ -15,7 +15,7 @@ const App = () => {
         ),
         React.createElement(
             ReactRouterDOM.Route,
-            { exact: true, path:'/contact'},
+            { exact: true, path: '/contact'},
             React.createElement(Contact)
         )
     );

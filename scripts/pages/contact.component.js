@@ -5,5 +5,10 @@ const Contact = () => {
         document.title = 'Hotel DP | Contact';
     },[]);
 
-    return React.createElement(ContactForm);
+    return React.createElement(
+        'main',
+        {},
+        React.createElement(ContactForm),
+        React.createElement(ContactInfoSection)
+    );
 }
