@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
-        React.createElement(App),
+        React.createElement(
+            ReactRouterDOM.BrowserRouter,
+            {},
+            React.createElement(ReactRouterDOM.withRouter(App))
+        ),
         document.getElementById('root')
     );
 });
