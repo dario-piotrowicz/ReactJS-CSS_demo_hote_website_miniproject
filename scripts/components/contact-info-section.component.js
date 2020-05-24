@@ -29,7 +29,7 @@ const ContactInfoSection = () => {
                 const key = `contact-info-${idx}`;
                 return React.createElement(
                     InfoBox,
-                    {key, title, description},
+                    {key, title, description, forceWordBreakAll: true},
                     React.createElement('i', {className: fontAwesomeIconClass} )
                 )
             })

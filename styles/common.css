@@ -65,3 +65,7 @@ h1, h2 {
 .clr {
     clear: both;
 }
+
+.word-break-all {
+    word-break: break-all;
+}
