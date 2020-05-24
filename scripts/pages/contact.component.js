@@ -1,6 +1,11 @@
 
 const Contact = () => {
 
+    React.useEffect( () => {
+        document.title = 'Hotel DP | Contact';
+    },[]);
+
+
     const h1 = React.createElement(
         'h1',
         {},

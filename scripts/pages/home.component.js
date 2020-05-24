@@ -1,5 +1,10 @@
 
 const Home = () => {
+
+    React.useEffect( () => {
+        document.title = 'Hotel DP | Home';
+    },[]);
+
     const showcase = React.createElement(Showcase);
     const infoSection = React.createElement(InfoSection);
     const featuresSection = React.createElement(FeaturesSection);
