@@ -1,0 +1,31 @@
+#about-info-section {
+    padding: 30px 0;
+}
+
+#about-info-section .about-info-description {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#about-info-section .about-info-description h1 {
+    font-size: 40px;
+}
+
+#about-info-section .about-info-description p:first-of-type {
+    margin-bottom: 20px;
+}
+
+#about-info-section .about-info-img {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+
+#about-info-section .about-info-img img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+}

@@ -6,10 +6,10 @@ const Home = () => {
     },[]);
 
     const showcase = React.createElement(Showcase);
-    const infoSection = React.createElement(InfoSection);
+    const infoSection = React.createElement(HomeInfoSection);
     const featuresSection = React.createElement(FeaturesSection);
     const clearFloats = React.createElement('div',{className: 'clr'});
-    
+
     return React.createElement(
         'main',
         {},

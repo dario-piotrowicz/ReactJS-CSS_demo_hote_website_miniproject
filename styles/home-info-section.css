@@ -1,16 +1,16 @@
 
-#info-section {
+#home-info-section {
     height: 400px;
 }
 
-#info-section .info-img {
+#home-info-section .info-img {
     float: left;
     width: 50%;
     background: url('../images/photo-1.jpg') no-repeat;
     height: 100%;
 }
 
-#info-section .info-content {
+#home-info-section .info-content {
     float: right;
     width: 50%;
     height: 100%;
@@ -19,6 +19,6 @@
     overflow: auto;
 }
 
-#info-section .info-content p {
+#home-info-section .info-content p {
     padding-bottom: 30px;
 }

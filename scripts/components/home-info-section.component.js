@@ -1,10 +1,11 @@
-const descriptionText = `
- The Hotel does not actually exist, and DP stands
- for Dario Piotrowicz which is me the developer
- who is making this miniproject website.
-`;
 
-const InfoSection = () => {
+const HomeInfoSection = () => {
+
+    const descriptionText = `
+     The Hotel does not actually exist, and DP stands
+     for Dario Piotrowicz which is me the developer
+     who is making this miniproject website.
+    `;
 
     const img = React.createElement('div',{className: 'info-img'});
 
@@ -32,7 +33,7 @@ const InfoSection = () => {
 
     return React.createElement(
         'section',
-        { id: "info-section", className: "background-dark" },
+        { id: "home-info-section", className: "background-dark" },
         img,
         content
     );
