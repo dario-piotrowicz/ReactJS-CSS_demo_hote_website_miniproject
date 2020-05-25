@@ -23,3 +23,14 @@
 #showcase .showcase-content a.btn {
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px){
+
+    #showcase {
+        height: 100%;
+    }
+
+    #showcase .showcase-content {
+        padding: 50px 0;
+    }
+}
