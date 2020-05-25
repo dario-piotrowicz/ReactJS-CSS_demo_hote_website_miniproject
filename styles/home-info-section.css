@@ -22,3 +22,18 @@
 #home-info-section .info-content p {
     padding-bottom: 30px;
 }
+
+
+@media (max-width: 768px){
+
+    #home-info-section .info-img {
+        display: none;
+    }
+
+
+    #home-info-section .info-content {
+        float: none;
+        width: 100%;
+    }
+
+}
