@@ -25,3 +25,11 @@
     text-align: center;
     padding-bottom: 40px;
 }
+
+@media (max-width: 768px){
+
+    #about-testimonials-section h2 {
+        line-height: 1.3;
+    }
+
+}
