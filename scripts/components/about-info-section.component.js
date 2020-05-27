@@ -49,7 +49,7 @@ const AboutInfoSection = () => {
                 {className: 'about-info-img'},
                 React.createElement(
                     'img',
-                    { src: '../images/photo-2.jpg', alt: 'hotel'}
+                    { src: '/images/photo-2.jpg', alt: 'hotel'}
                 )
             ),
             React.createElement(
