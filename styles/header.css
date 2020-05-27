@@ -33,6 +33,11 @@
     color: #f7c08a;
 }
 
+#header-navbar #menu-toggle {
+    display: none;
+}
+
+
 @media (max-width: 768px){
 
     #header-navbar h1 {
@@ -53,6 +58,18 @@
     #header-navbar ul li a {
         padding: 5px;
         border-top: #444 1px dotted;
+    }
+
+    #header-navbar #menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    #header-navbar .nav-menu.hidden {
+        display: none;
     }
 
 }
