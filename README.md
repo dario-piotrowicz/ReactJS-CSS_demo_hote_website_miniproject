@@ -12,3 +12,12 @@ I just wanted to include the react library in the project and see if/how usable 
 Other aspects I'd like to mention are:
  - In the course flexbox (or grid) has not been introduced yet, so the project is going to use floats instead (not a great practice but it is still worth knowing how it works)
  - All UI Designs and HTML/CSS are taken from the course and I'm coding along, so that is not designed by me, what is completely mine are the files structure and the javascript/react
+
+\
+\
+\
+&NewLine;
+
+ ### Deployment
+ The project has been deployed via github pages at the following link:
+ https://dario-piotrowicz.github.io/ReactJS-CSS_demo_hotel_miniproject/
