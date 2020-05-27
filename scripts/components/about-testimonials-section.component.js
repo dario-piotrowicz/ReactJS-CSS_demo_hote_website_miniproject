@@ -51,14 +51,14 @@ const AboutTestimonialsSection = () => {
             React.createElement(
                 testimonialCard,
                 {
-                     imgSrc: '../images/person-1.jpg',
+                     imgSrc: 'images/person-1.jpg',
                      text: testimonialText1
                 }
             ),
             React.createElement(
                 testimonialCard,
                 {
-                     imgSrc: '../images/person-2.jpg',
+                     imgSrc: 'images/person-2.jpg',
                      text: testimonialText2
                 }
             )
