@@ -1,6 +1,5 @@
 
 const Header = ({ history }) => {
-    console.log({history});
     const pathname = history.location.pathname;
     const isPageHome = pathname === '/' || pathname === '/index.html';
     const isPageAbout = pathname === '/about';
