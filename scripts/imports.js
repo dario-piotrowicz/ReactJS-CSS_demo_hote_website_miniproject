@@ -30,7 +30,8 @@ const styles = [
     "./styles/about-info-section.css",
     "./styles/about-testimonials-section.css",
     "./styles/contact-form.css",
-    "./styles/contact-info-section.css"
+    "./styles/contact-info-section.css",
+    "./styles/page-not-found.css"
 ];
 
 const allStyles = [ externalStyles, styles ];
@@ -64,7 +65,8 @@ const componentScripts = [
 const pageScripts = [
     "./scripts/pages/home.component.js",
     "./scripts/pages/about.component.js",
-    "./scripts/pages/contact.component.js"
+    "./scripts/pages/contact.component.js",
+    "./scripts/pages/page-not-found.component.js"
 ];
 
 const allScripts = [

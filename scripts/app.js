@@ -31,6 +31,11 @@ const App = ({ history }) => {
                     ReactRouterDOM.Route,
                     {exact: true, path: '/contact'},
                     React.createElement(Contact)
+                ),
+                React.createElement(
+                    ReactRouterDOM.Route,
+                    {path: '*'},
+                    React.createElement(PageNotFound)
                 )
             )
         ),
