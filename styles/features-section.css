@@ -1,0 +1,12 @@
+#features-section {
+    display: flex;
+}
+
+
+@media (max-width: 768px){
+
+    #features-section {
+        display: block;
+    }
+
+}

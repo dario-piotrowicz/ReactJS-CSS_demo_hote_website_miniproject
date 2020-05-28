@@ -27,6 +27,7 @@ const styles = [
     "./styles/showcase.css",
     "./styles/info-box.css",
     "./styles/home-info-section.css",
+    "./styles/features-section.css",
     "./styles/about-info-section.css",
     "./styles/about-testimonials-section.css",
     "./styles/contact-form.css",
