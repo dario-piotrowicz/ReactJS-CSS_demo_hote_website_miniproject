@@ -9,7 +9,7 @@ const AboutInfoSection = () => {
     `;
 
     const aboutText2 = `
-        Obviously none of this is to be takes seriously, I'm just trying
+        Obviously none of this is to be taken seriously, I'm just trying
         to put some text in the site! (and I guess this is better
         than just Lorem Ipsum).
    `;
