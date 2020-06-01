@@ -12,7 +12,7 @@ I just wanted to include the react library in the project and see if/how usable 
 Other aspects I'd like to mention are:
  - In the course flexbox (or grid) has not been introduced yet, so the project is going to use floats instead (not a great practice but it is still worth knowing how it works)
  - All UI Designs and HTML/CSS are taken from the course and I'm coding along, so that is not designed by me, what is completely mine are the files structure and the javascript/react
-
+- I use the `React.createElement` throughout the project, I know I could just assign it to a shorthard (as mentioned in the react doc page mentioned above), but as a personal preference I decided to leave it as it is (in my opinion this makes the code a bit clearer)
 \
 \
 \
