@@ -1,4 +1,3 @@
-
 const Header = ({ history }) => {
     const pathname = history.location.pathname;
     const isPageHome = pathname === '/' || pathname === '/index.html';
@@ -60,7 +59,7 @@ const Header = ({ history }) => {
                     )
                 ),
                 React.createElement(
-                    'i',
+                    MenuToggle,
                     { id: 'menu-toggle',
                       className: 'fas fa-bars fa-2x',
                       onClick: () => { setMenuOpen( !menuOpen ); }
