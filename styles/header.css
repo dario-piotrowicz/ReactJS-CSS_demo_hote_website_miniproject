@@ -68,7 +68,7 @@
         cursor: pointer;
     }
 
-    #header-navbar .nav-menu.hidden {
+    #header-navbar .nav-menu {
         display: none;
     }
 

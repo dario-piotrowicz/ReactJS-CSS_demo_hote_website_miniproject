@@ -5,8 +5,6 @@ const Header = ({ history }) => {
     const isPageContact = pathname === '/contact';
     const getLinkClassName = isPageActive => isPageActive ? 'active' : null;
 
-    const [ menuOpen, setMenuOpen ] = React.useState(false);
-
     return React.createElement(
         'header',
         {},
@@ -28,7 +26,7 @@ const Header = ({ history }) => {
                 React.createElement(
                     'ul',
                     {
-                        className: `nav-menu ${menuOpen ? '' : 'hidden' }`
+                        className: 'nav-menu'
                     },
                     React.createElement(
                         'li',
@@ -60,10 +58,7 @@ const Header = ({ history }) => {
                 ),
                 React.createElement(
                     MenuToggle,
-                    { id: 'menu-toggle',
-                      className: 'fas fa-bars fa-2x',
-                      onClick: () => { setMenuOpen( !menuOpen ); }
-                    }
+                    { id: 'menu-toggle'}
                 )
             )
         )
