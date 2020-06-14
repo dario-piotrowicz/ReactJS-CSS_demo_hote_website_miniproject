@@ -63,12 +63,12 @@
     #header-navbar #menu-toggle {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 10px;
+        right: 10px;
         cursor: pointer;
     }
 
-    #header-navbar .nav-menu.hidden {
+    #header-navbar .nav-menu {
         display: none;
     }
 

@@ -32,7 +32,8 @@ const styles = [
     "./styles/about-testimonials-section.css",
     "./styles/contact-form.css",
     "./styles/contact-info-section.css",
-    "./styles/page-not-found.css"
+    "./styles/page-not-found.css",
+    "./styles/menu-toggle.css"
 ];
 
 const allStyles = [ externalStyles, styles ];
@@ -60,7 +61,8 @@ const componentScripts = [
     "./scripts/components/about-info-section.component.js",
     "./scripts/components/about-testimonials-section.component.js",
     "./scripts/components/contact-form.component.js",
-    "./scripts/components/contact-info-section.component.js"
+    "./scripts/components/contact-info-section.component.js",
+    "./scripts/components/menu-toggle.component.js"
 ];
 
 const pageScripts = [
