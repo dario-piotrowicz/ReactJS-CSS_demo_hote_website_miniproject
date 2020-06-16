@@ -6,7 +6,7 @@
 
 #home-info-section .info-img {
     flex: 1;
-    background: url('../images/photo-1.jpg') no-repeat;
+    background: url(../images/photo-1.jpg) no-repeat center center/cover;
     height: 100%;
 }
 
