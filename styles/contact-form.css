@@ -32,3 +32,14 @@
     height: 200px;
     resize: none;
 }
+
+@media(max-width: 300px){
+    #contact-form h1 {
+        line-height: 45px;
+        text-align: center;
+    }
+
+    #contact-form p {
+        text-align: center;
+    }
+}
