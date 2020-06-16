@@ -1,7 +1,11 @@
 #features-section {
     display: flex;
+    justify-content: center;
 }
 
+#features-section .info-box {
+    width: 100%;
+}
 
 @media (max-width: 768px){
 
