@@ -1,22 +1,25 @@
 
 #home-info-section {
     height: 400px;
+    display: flex;
 }
 
 #home-info-section .info-img {
-    float: left;
-    width: 50%;
+    flex: 1;
     background: url('../images/photo-1.jpg') no-repeat;
     height: 100%;
 }
 
 #home-info-section .info-content {
-    float: right;
-    width: 50%;
+    flex: 1;
     height: 100%;
     text-align: center;
-    padding: 50px 30px;
+    padding: 0 30px;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #home-info-section .info-content p {
@@ -32,7 +35,6 @@
 
 
     #home-info-section .info-content {
-        float: none;
         width: 100%;
     }
 
