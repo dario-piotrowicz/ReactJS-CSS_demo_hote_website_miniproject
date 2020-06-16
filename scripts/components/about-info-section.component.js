@@ -17,9 +17,6 @@ const AboutInfoSection = () => {
     return React.createElement(
         'section',
         { id: "about-info-section", className: "background-light " },
-        React.createElement(
-            'div',
-            {className: 'centering-container'},
             React.createElement(
                 'div',
                 {className: 'about-info-description'},
@@ -42,7 +39,7 @@ const AboutInfoSection = () => {
                     'p',
                     {},
                     aboutText2
-                )
+                ),
             ),
             React.createElement(
                 'div',
@@ -51,11 +48,6 @@ const AboutInfoSection = () => {
                     'img',
                     { src: 'images/photo-2.jpg', alt: 'hotel'}
                 )
-            ),
-            React.createElement(
-                'div',
-                {className: 'clr'}
             )
-        )
     );
 };
