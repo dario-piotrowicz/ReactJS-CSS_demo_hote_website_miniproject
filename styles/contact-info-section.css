@@ -1,4 +1,13 @@
+#contact-info-section {
+    display: flex;
+    justify-content: space-around;
+}
+
 @media (max-width: 768px){
+
+    #contact-info-section {
+        flex-direction: column;
+    }
 
     #contact-info-section .info-box {
         border-bottom: #444 1px dotted;

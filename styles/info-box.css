@@ -1,20 +1,9 @@
 
 .info-box {
-    float: left;
-    width: 33.3%;
-    padding: 50px;
+    padding: 50px 10px;
     text-align: center;
 }
 
 .info-box i {
     margin-bottom: 10px;
-}
-
-@media (max-width: 768px){
-
-    .info-box {
-        float: none;
-        width: 100%;
-    }
-
 }
