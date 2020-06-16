@@ -3,11 +3,12 @@
     margin-bottom: 40px;
     border-radius: 5px;
     opacity: 0.9;
+    display: flex;
+    align-items: center;
 }
 
 .testimonial-card img {
     width: 100px;
-    float: left;
     margin-right: 20px;
     border-radius: 50%;
 }
@@ -30,6 +31,14 @@
 
     #about-testimonials-section h2 {
         line-height: 1.3;
+    }
+
+    .testimonial-card {
+        flex-direction: column;
+    }
+
+    .testimonial-card img {
+        margin-bottom: 15px;
     }
 
 }
