@@ -2,10 +2,16 @@
     background-color: #333;
     color: #fff;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#header-navbar .centering-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #header-navbar h1 {
-    float: left;
     padding-top: 20px;
 }
 
@@ -15,11 +21,11 @@
 
 #header-navbar ul {
     list-style: none;
-    float: right;
+    text-align: center;
 }
 
-#header-navbar ul li {
-    float: left;
+#header-navbar .nav-menu {
+    display: flex;
 }
 
 #header-navbar ul li a {
@@ -38,26 +44,11 @@
 }
 
 
+
 @media (max-width: 768px){
 
-    #header-navbar h1 {
-        float: none;
-        text-align: center;
-    }
-
-    #header-navbar ul {
-        list-style: none;
-        float: none;
-    }
-
-    #header-navbar ul li {
-        float: none;
-        text-align: center;
-    }
-
-    #header-navbar ul li a {
-        padding: 5px;
-        border-top: #444 1px dotted;
+    #header-navbar .nav-menu {
+        display: none;
     }
 
     #header-navbar #menu-toggle {
@@ -66,10 +57,6 @@
         top: 10px;
         right: 10px;
         cursor: pointer;
-    }
-
-    #header-navbar .nav-menu {
-        display: none;
     }
 
 }
