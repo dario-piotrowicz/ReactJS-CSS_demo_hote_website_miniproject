@@ -10,7 +10,6 @@ const Home = () => {
         {},
         React.createElement(Showcase),
         React.createElement(HomeInfoSection),
-        React.createElement(FeaturesSection),
-        React.createElement('div',{className: 'clr'})
+        React.createElement(FeaturesSection)
     );
 };

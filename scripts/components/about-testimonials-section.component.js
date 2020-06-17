@@ -10,10 +10,6 @@ const testimonialCard = ({ imgSrc, text }) => React.createElement(
         'p',
         {},
         text
-    ),
-    React.createElement(
-        'div',
-        {className: 'clr'}
     )
 );
 
