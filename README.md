@@ -13,7 +13,7 @@ I must actually pleasantly surprised to find out that the library by itself is v
 
 \
 Other aspects I'd like to mention are:
- - Most of the UI Designs are taken from the course, the HTML/CSS was also done very similarly to the course, although I made my personal adjustments and improvements. What is 100% completely mine is the files structure, the javascript/react and all the related aspects
+ - Most of the UI designs are taken from the course, the HTML/CSS was also done very similarly to the course, although I made my personal adjustments and improvements. What is 100% completely mine is the files structure, the javascript/react and all the related aspects
 - I use the `React.createElement` function throughout the project, I know I could just assign it to a shorthard (as mentioned in the react doc page mentioned above), but as a personal preference I decided to leave it as it is (in my opinion this makes the code a bit clearer)
 \
 \
