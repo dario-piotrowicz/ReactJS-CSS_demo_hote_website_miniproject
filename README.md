@@ -22,4 +22,4 @@ Other aspects I'd like to mention are:
 
  ### Deployment
  The project has been deployed via github pages at the following link:\
- https://dario-piotrowicz.github.io/ReactJS-CSS_demo_hote_website_miniproject/
+ https://dario-piotrowicz.github.io/ReactJS-CSS_demo_hotel_website_miniproject/
