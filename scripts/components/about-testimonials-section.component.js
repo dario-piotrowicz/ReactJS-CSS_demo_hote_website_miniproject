@@ -16,7 +16,7 @@ const testimonialCard = ({ imgSrc, text }) => React.createElement(
 const AboutTestimonialsSection = () => {
 
     const testimonialText1 = `
-        My name is Rachel, I honeslty do not think this hotel is real, I mean, 
+        My name is Rachel, I honestly do not think this hotel is real, I mean, 
         there are too few info, no location, no pricing, nothing!
         And all around it does seems like some website made in a day without (maybe
         for learning purposes). So even though I haven't really tried booking a room
@@ -25,7 +25,7 @@ const AboutTestimonialsSection = () => {
     `;
 
     const testimonialText2 = `
-        Hello I am Gina and I kind og agree with Reahel, this website though amazing
+        Hello I am Gina and I kind of agree with Reahel, this website though amazing
         does not seem to portray a real hotel. I bet some really awesome web developer
         just made it, just to refresh his CSS basics of something of that sort. Not sure
         but it would be really cool if that developer even implemented the website using
