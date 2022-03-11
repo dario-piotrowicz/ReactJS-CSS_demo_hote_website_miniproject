@@ -1,3 +1,8 @@
+
+import importCss from '../utils/import-css.js';
+
+importCss('../../styles/showcase.css');
+
 const showcaseSubtitle = `
  And enjoy visiting this wonderful website made
  using basic HTML & CSS and also a bit of ReactJs
@@ -36,3 +41,5 @@ const Showcase = () => React.createElement(
             )
         )
 );
+
+export default Showcase;

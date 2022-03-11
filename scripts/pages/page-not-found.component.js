@@ -1,4 +1,8 @@
 
+import importCss from '../utils/import-css.js';
+
+importCss('../../styles/page-not-found.css');
+
 const PageNotFound = () => {
 
     const title = '404 - Page Not Found';
@@ -30,3 +34,5 @@ const PageNotFound = () => {
         )
     );
 }
+
+export default PageNotFound;

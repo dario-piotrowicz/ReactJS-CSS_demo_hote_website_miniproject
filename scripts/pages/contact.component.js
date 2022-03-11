@@ -1,3 +1,5 @@
+import ContactForm from "../components/contact-form.component.js";
+import ContactInfoSection from "../components/contact-info-section.component.js";
 
 const Contact = () => {
 
@@ -12,3 +14,5 @@ const Contact = () => {
         React.createElement(ContactInfoSection)
     );
 }
+
+export default Contact;

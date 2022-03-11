@@ -1,3 +1,9 @@
+import InfoBox from "./info-box.component.js";
+
+import importCss from '../utils/import-css.js';
+
+importCss('../../styles/contact-info-section.css');
+
 const contacts = [
     {
         fontAwesomeIconClass: 'fas fa-hotel fa-3x',
@@ -37,4 +43,4 @@ const ContactInfoSection = () => {
     );
 };
 
-
+export default ContactInfoSection;

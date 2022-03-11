@@ -1,3 +1,8 @@
+
+import importCss from '../utils/import-css.js';
+
+importCss('../../styles/menu-toggle.css');
+
 const MenuToggle = () => React.createElement(
   'div',
   {id: 'menu-toggle'},
@@ -57,3 +62,5 @@ const MenuToggle = () => React.createElement(
     ),
   )
 );
+
+export default MenuToggle;
