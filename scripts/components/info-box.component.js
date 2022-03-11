@@ -1,8 +1,4 @@
 
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/info-box.css');
-
 const InfoBox = ({
                     title,
                     description,
@@ -29,5 +25,3 @@ const InfoBox = ({
         )
     );
 };
-
-export default InfoBox;

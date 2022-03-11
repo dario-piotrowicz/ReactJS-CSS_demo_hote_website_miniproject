@@ -1,7 +1,3 @@
-import Showcase from '../components/showcase.component.js';
-import HomeInfoSection from '../components/home-info-section.component.js';
-import FeaturesSection from '../components/features-section.component.js';
-
 
 const Home = () => {
 
@@ -17,5 +13,3 @@ const Home = () => {
         React.createElement(FeaturesSection)
     );
 };
-
-export default Home;

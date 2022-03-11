@@ -1,5 +1,3 @@
-import AboutInfoSection from "../components/about-info-section.component.js";
-import AboutTestimonialsSection from "../components/about-testimonials-section.component.js";
 
 const About = () => {
 
@@ -14,5 +12,3 @@ const About = () => {
         React.createElement(AboutTestimonialsSection)
     );
 }
-
-export default About;

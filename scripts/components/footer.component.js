@@ -1,6 +1,3 @@
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/footer.css');
 
 const Footer = () => React.createElement(
     'footer',
@@ -12,4 +9,3 @@ const Footer = () => React.createElement(
     )
 );
 
-export default Footer;

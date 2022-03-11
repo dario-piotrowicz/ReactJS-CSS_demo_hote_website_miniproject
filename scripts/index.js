@@ -1,5 +1,3 @@
-import App from './app.js';
-
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
         React.createElement(

@@ -1,8 +1,4 @@
 
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/about-info-section.css');
-
 const AboutInfoSection = () => {
 
     const aboutText1 = `
@@ -55,5 +51,3 @@ const AboutInfoSection = () => {
             )
     );
 };
-
-export default AboutInfoSection;

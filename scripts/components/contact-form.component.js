@@ -1,8 +1,4 @@
 
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/contact-form.css');
-
 const ContactForm = () => {
 
     return React.createElement(
@@ -77,5 +73,3 @@ const ContactForm = () => {
         )
     );
 };
-
-export default ContactForm;

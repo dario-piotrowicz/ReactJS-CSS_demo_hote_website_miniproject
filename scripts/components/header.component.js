@@ -1,10 +1,3 @@
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/header.css');
-
-
-import MenuToggle from './menu-toggle.component.js';
-
 const Header = ({ history }) => {
     const pathname = history.location.pathname;
     const isPageHome = pathname === '/' || pathname === '/index.html';
@@ -71,5 +64,3 @@ const Header = ({ history }) => {
         )
     );
 };
-
-export default Header;

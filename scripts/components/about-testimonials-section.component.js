@@ -1,8 +1,4 @@
 
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/about-testimonials-section.css');
-
 const testimonialCard = ({ imgSrc, text }) => React.createElement(
     'div',
     {className: 'testimonial-card background-primary'},
@@ -65,5 +61,3 @@ const AboutTestimonialsSection = () => {
         )
     );
 };
-
-export default AboutTestimonialsSection;

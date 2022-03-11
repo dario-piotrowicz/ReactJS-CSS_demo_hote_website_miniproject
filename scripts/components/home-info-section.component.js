@@ -1,8 +1,3 @@
-
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/home-info-section.css');
-
 const homeInfoDescriptionText = `
     The Hotel does not actually exist, and DP stands
     for Dario Piotrowicz which is me the developer
@@ -41,5 +36,3 @@ const HomeInfoSection = () => React.createElement(
             )
         )
 );
-
-export default HomeInfoSection;

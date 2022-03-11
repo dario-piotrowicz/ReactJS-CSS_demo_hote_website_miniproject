@@ -1,8 +1,3 @@
-import InfoBox from './info-box.component.js';
-
-import importCss from '../utils/import-css.js';
-
-importCss('../../styles/features-section.css');
 
 const features = [
         {
@@ -36,5 +31,3 @@ const FeaturesSection = () => React.createElement(
             )
         })
 );
-
-export default FeaturesSection;
